@@ -1,0 +1,146 @@
+body {
+  font-family: 'Overpass', sans-serif;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  height: 370px;
+  background-color: hsl(220, 20%, 15%);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+  position: relative;
+}
+.circle img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.question {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.plea {
+  color: hsl(217, 12%, 63%);
+  line-height: 1.5;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.number {
+  color: hsl(217, 12%, 63%);
+}
+
+.number span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: inherit;
+  font-weight: 700;
+}
+
+.number:hover {
+  background-color: hsl(25,97%, 53%);
+}
+.number:hover span {
+  color: white;
+}
+
+.active {
+  background-color:  hsl(216, 12%, 54%);
+  color: white;
+}
+
+.button {
+  width: 370px;
+  height: 50px;
+  margin: 30px auto 0;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 50px;
+  position: relative;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.button:hover {
+  background-color: white;
+  color:  hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.button span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.thank {
+  text-align: center;
+}
+
+.rating {
+  width: 50%;
+  padding: 10px;
+  margin:  30px auto;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 50%);
+  font-weight: lighter;
+  font-size: 14px;
+  border-radius: 25px;
+}
+
+.thankyou {
+  color: white;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.appreciate {
+  color: hsl(217, 12%, 63%);
+  line-height: 1.5;
+  width: 98%;
+  margin: auto;
+}
+
+
+
+
+
+
+.attribution {
+  visibility: hidden;
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+
+ }
+.attribution a { color: hsl(228, 45%, 44%); }
